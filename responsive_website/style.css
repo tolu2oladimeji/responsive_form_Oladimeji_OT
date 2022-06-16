@@ -1,0 +1,121 @@
+*{
+    box-sizing:border-box;
+    cursor: zoom-out;
+
+}
+body{
+    margin:0;
+    padding:0;
+    background-color:black;
+    color:aliceblue;
+
+}
+main{
+    display:flex;
+    background-color: palevioletred;
+    background-image: url(images/bg-intro-desktop.png);
+    justify-content: center;
+    margin: 100px 150px;  
+}
+.container1{
+
+}
+.container2{
+    text-align: left;
+    padding:30px;
+}
+.trial{
+    background-color: blue;
+    border-radius: 7px;
+    padding: 20px;
+    text-align: center;
+
+}
+.form1{
+    background-color: white;
+    justify-items: center;
+    max-width:500px;
+    width:100%;
+    /*background:aliceblue;*/
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.i{
+    padding: 20px;
+    gap:5px;
+    border-radius: 10px;
+    width: 100%;
+}
+p{
+    font-size: 6;
+}
+.button1{
+    padding: 20px;
+    gap:5px;
+    border-radius: 10px;
+    width: 100%;
+    background-color:rgb(36, 78, 36);
+    color: white;
+
+}
+@media screen and (min-width: 480px) and (max-width:700px) {
+    body {
+        body{
+            postion:static;
+            background-color:black;
+            color:aliceblue;
+            width: 365px;
+        }
+        main{
+            /*display:flex;*/
+            background-color: palevioletred;
+            background-image: url(images/bg-intro-desktop.png);
+            justify-content: center;
+            margin: 100px 150px;  
+            padding: 20em 0 20em 0;
+        }
+        h1{
+            font-size: small;
+        
+        }
+        .container2{
+            text-align: left;
+            padding:30px;
+        }
+        .trial{
+            background-color: blue;
+            border-radius: 7px;
+            padding: 20px;
+            text-align: center;
+        
+        }
+        .form1{
+            
+            max-width:300px;
+            width:80%;
+            /*background:aliceblue;*/
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .i{
+            padding: 20px;
+            gap:5px;
+            border-radius: 10px;
+            width: 100%;
+        }
+        p{
+            font-size: smaller;
+        }
+        .button1{
+            padding: 20px;
+            gap:5px;
+            border-radius: 10px;
+            width: 100%;
+            font-size: 4;
+                    }
+      
+    }
+  }
+  
